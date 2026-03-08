@@ -1,0 +1,16 @@
+# PokeData Engine 
+
+A Python application for dynamic data retrieval, processing, and visualization. This hoby project demonstrates the integration of REST APIs with advanced GUI development and data science libraries.
+
+## Tech Stack
+* **Language:** Python 3.14
+* **GUI Framework:** PyQt6 (utilizing QThread for non-blocking I/O)
+* **Data Management:** Pandas (for structured data analysis and CSV export)
+* **Visualization:** Matplotlib (dynamic statistical charting)
+* **API Integration:** Requests (REST API v2)
+
+## Key Engineering Features
+* **Asynchronous Data Fetching:** Implements multi-threading to maintain UI responsiveness during heavy API calls.
+* **Statistical Analysis:** Real-time generation of distribution charts (Pie, Bar, Histogram) based on live datasets.
+* **Custom UI/UX:** A modern, dark-themed interface with custom widgets and a responsive layout.
+* **Data Persistence:** Integrated CSV exporting capabilities for processed datasets.
